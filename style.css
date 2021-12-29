@@ -4,12 +4,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: 0px;
-
 }
 
 h1 {
     font-size: 64px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
     font-weight: 700;
 }
 
@@ -93,7 +92,6 @@ header {
 
 }
 
-
 .card img {
     width: 64px;
     align-items: center;
@@ -105,7 +103,6 @@ header {
     border-radius: 10px;
     border-color: #ad76f5;
     margin: 10px;
-
 }
 
 .proyectos {
