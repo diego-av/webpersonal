@@ -154,10 +154,33 @@ header {
 
 footer {
     background-color: #fae46a;
-    height: 30px;
+    height: 10vh;
     text-align: center;
     font-weight: 500;
     font-size: 14px;
+}
+
+.portSobreMi {
+    background-color: #fae46a;
+    height: 150px;
+}
+
+.sobreMiMi {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sobreMiMi img {
+    border-radius: 80px 0px 80px 80px;
+    background-color: #cfc1fe;
+    padding-top: 40px;
+    box-shadow: 4px 4px 8px rgb(223, 223, 223);
+    width: 250px;
+}
+
+.serviciosServicios {
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 768px){
