@@ -8,25 +8,25 @@
 
 h1 {
   font-size: 64px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
 h2 {
   font-size: 48px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
 h3 {
   font-size: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
 h4 {
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
@@ -95,19 +95,19 @@ header {
   background: linear-gradient(90deg, #fae46a 0%, #cfc1fe 60%);
 }
 
+.card {
+  padding-bottom: 20px;
+  padding-top: 25px;
+  border-radius: 10px;
+  border-color: #7b60d2;
+  margin: 10px;
+}
+
 .card img {
   width: 64px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.card {
-  padding-bottom: 20px;
-  padding-top: 25px;
-  border-radius: 10px;
-  border-color: #ad76f5;
-  margin: 10px;
 }
 
 .proyectos {
@@ -134,11 +134,11 @@ header {
   padding-bottom: 80px;
 }
 
-.dt {
+.contacto button {
   margin-top: 23px;
 }
 
-.contacto button {
+.dt {
   margin-top: 23px;
 }
 
@@ -192,11 +192,11 @@ footer {
   .portada img {
     margin-top: 20px;
   }
-  .sobreMi img {
-    visibility: hidden !important;
-  }
   .sobreMi {
     margin-top: 100px;
+  }
+  .sobreMi img {
+    visibility: hidden !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
