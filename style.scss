@@ -11,39 +11,59 @@ $color2: #fae46a;
 $fontfamily1: 'Poppins', sans-serif;
 $sombra: 4px 4px 8px rgb(223, 223, 223);
 
+
+// Inicio del Mapa para el desafio //
+$colorMaps: (
+    clr1: blue,
+    clr2: red,
+    clr3: green,
+    );
+
+@each $clr, $color in $colorMaps {
+    .btnMaps--#{$clr} {
+        padding: 10px;
+        background-color: $color;
+        color: white;
+        border-radius: 5px;
+    }
+}
+// Fin del Mapa para el desafio
+
+// Inicio del Mixin para el desafio //
+@mixin fontTitulos($size, $family, $weight) {
+    font-size: $size;
+    font-family: $family; 
+    font-weight: $weight;
+}
+
 h1 {
-    font-size: 64px;
-    font-family: $fontfamily1; 
-    font-weight: 700;
+    @include fontTitulos (64px, $fontfamily1, 700);
 }
 
 h2 {
-    font-size: 48px;
-    font-family: $fontfamily1;
-    font-weight: 700;
+    @include fontTitulos (48px, $fontfamily1, 700);
 }
 
 h3 {
-    font-size: 24px;
-    font-family: $fontfamily1;
-    font-weight: 700;
+    @include fontTitulos (24px, $fontfamily1, 700);
 }
 
 h4 {
-    font-size: 18px;
-    font-family: $fontfamily1;
-    font-weight: 700;
+    @include fontTitulos (18px, $fontfamily1, 700);
 }
+// Fin del Mixin para el desafio //
 
 .btn-outline-primary {
     border-color: $color1;
     color: $color1;
 }
 
+// Inicio del Extend para el desafio //
 .btn-outline-primary:hover {
     background-color: $color1;
     border-color: $color1;
 }
+// Fin del Extend para el desafio //
 
 .navbar-brand {
     font-weight: 700;
@@ -146,10 +166,12 @@ header {
     color:black;
 }
 
+// Inicio de aplicación de Extend //
 .btn-block:hover {
-    background-color: $color1;
-    border-color: $color1;
+    @extend .btn-outline-primary:hover;
 }
+// Fin de aplicación de Extend //
+
 
 footer {
     background-color: $color2;
@@ -157,6 +179,17 @@ footer {
     text-align: center;
     font-weight: 500;
     font-size: 14px;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+
+        a {
+        text-decoration: none;
+        color: black;
+    }
+    }
 }
 
 .portSobreMi {
