@@ -6,27 +6,6 @@
           box-sizing: 0px;
 }
 
-.btnMaps--clr1 {
-  padding: 10px;
-  background-color: blue;
-  color: white;
-  border-radius: 5px;
-}
-
-.btnMaps--clr2 {
-  padding: 10px;
-  background-color: red;
-  color: white;
-  border-radius: 5px;
-}
-
-.btnMaps--clr3 {
-  padding: 10px;
-  background-color: green;
-  color: white;
-  border-radius: 5px;
-}
-
 h1 {
   font-size: 64px;
   font-family: "Poppins", sans-serif;
