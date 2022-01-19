@@ -11,7 +11,6 @@ $color2: #fae46a;
 $fontfamily1: 'Poppins', sans-serif;
 $sombra: 4px 4px 8px rgb(223, 223, 223);
 
-// Inicio del Mixin para el desafio //
 @mixin fontTitulos($size, $family, $weight) {
     font-size: $size;
     font-family: $family; 
@@ -33,19 +32,16 @@ h3 {
 h4 {
     @include fontTitulos (18px, $fontfamily1, 700);
 }
-// Fin del Mixin para el desafio //
 
 .btn-outline-primary {
     border-color: $color1;
     color: $color1;
 }
 
-// Inicio del Extend para el desafio //
 .btn-outline-primary:hover {
     background-color: $color1;
     border-color: $color1;
 }
-// Fin del Extend para el desafio //
 
 .navbar-brand {
     font-weight: 700;
@@ -148,12 +144,9 @@ header {
     color:black;
 }
 
-// Inicio de aplicación de Extend //
 .btn-block:hover {
     @extend .btn-outline-primary:hover;
 }
-// Fin de aplicación de Extend //
-
 
 footer {
     background-color: $color2;
