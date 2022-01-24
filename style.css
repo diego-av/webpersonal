@@ -118,9 +118,22 @@ header {
 .proyectos img {
   width: 100%;
   margin-top: 30px;
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
   border-radius: 10px;
   -webkit-box-shadow: 8px 8px 16px #dadada;
           box-shadow: 8px 8px 16px #dadada;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.proyectos img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
 }
 
 .testimonios img {
