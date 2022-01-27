@@ -64,7 +64,7 @@ header {
 .portada img {
   border-radius: 0px 120px 120px 120px;
   background-color: #fae46a;
-  padding-top: 60px;
+  padding-top: 30px;
   -webkit-box-shadow: 4px 4px 8px #dfdfdf;
           box-shadow: 4px 4px 8px #dfdfdf;
   width: 100%;
@@ -75,9 +75,9 @@ header {
 }
 
 .sobreMi img {
-  border-radius: 80px 0px 80px 80px;
+  border-radius: 90px 0px 90px 90px;
   background-color: #cfc1fe;
-  padding-top: 40px;
+  padding-top: 25px;
   -webkit-box-shadow: 4px 4px 8px #dfdfdf;
           box-shadow: 4px 4px 8px #dfdfdf;
   width: 250px;
